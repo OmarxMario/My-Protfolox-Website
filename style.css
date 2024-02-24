@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    
+    background: url("img/wallpaperflare.com_wallpaper\ \(6\).jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+    background-attachment: fixed;
+    
+
+}
+.main h1{
+    color: #fff;
+    margin-left: 35%;
+    font-size: 50px;
+    font-family:fantasy;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+
+.main a:hover{
+    transform: scale(1.2);
+    background-color: #0026ff;
+} 
+header{
+    width: 100%;
+    height: 50px;
+    list-style: none;
+    z-index: 999;
+    background-color: azure;
+    position: fixed;
+    text-align: center;
+}
+
+header a {
+    margin: 12px;
+    font-size: 25px;
+    color:#0026ff;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.7s ease;
+}
+
+header a:hover{
+    color: #8a00c5;
+}
+.About{
+    margin-top: 45px;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    border-bottom: #000000 1px solid;
+}
+.About h1{
+    color: #1f40ff;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif; 
+}
+.About h3{
+    color: #005eff;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+.About h5{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+.Skills{
+    margin-top: 45px;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    border-bottom: #000000 1px solid;
+}
+.Skills h1{
+    display: inline-block;
+    width: 100%;
+    height: 120px;
+    color: #1f40ff;
+    font-size: 75px;
+    font-weight: 800;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    
+}
+.contant{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    box-shadow: 8px 8px 8px #0000006d;
+    border-radius: 12px;
+    margin: 25px;
+    transition: 0.7s ease;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card h1{user-select: none;}
+.card h3{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.Content{
+    margin-top: 45px;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 120px;
+    
+
+
+}
+.Content h1{
+    display: inline-block;
+    width: 100%;
+    height: 120px;
+    color: #1f40ff;
+    font-size: 75px;
+    font-weight: 800;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+footer{
+    width: 100%;
+    height: 50px;
+    list-style: none;
+    background-color: azure;
+    text-align: center;
+}
+
